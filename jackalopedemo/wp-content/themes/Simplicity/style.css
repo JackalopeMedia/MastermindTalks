@@ -1,0 +1,41 @@
+/*
+Theme Name: Simplicity
+Theme URI: http://gavick.com
+Description: Responsive, premium WordPress Theme for business start-up
+Simple doesn't mean unsuccessful or unattractive... Simplicity is just the beginning... the beginning of startup! If you run a business and you want to enliven your online identity, Simplicity is the best choice you may make in order to create a successful and breathtaking website! This business WordPress theme uses the latest trends available. You may make undoubtedly unique and attractive landing page of a product with Simplicity thanks to interesting animations of CSS3 use!
+License: GNU GPL v.2.0
+License URI: LICENSE.txt
+Version: 1.4 (based on GavernWP 1.9)
+Author: GavickPro
+Author URI: http://gavick.com
+Tags: gray, two-columns, flexible-width
+*/
+
+/**
+ *
+ * Basic code convention:
+ *
+ * sel {
+ * // rules in the alphabetic order
+ * }
+ *
+ * Content of the CSS files
+ * 
+ * 0. Normalize CSS styles (normalize.css)
+ * 1. Global elements (template.css)
+ * 2. Template containers (template.css)
+ * 3. Template structure (template.css) 
+ * 4. Widget styles (template.css)
+ * 5. Wordpress elements styling (wp.css)
+ * 6. Shortcodes (shortcodes.*.css)
+ * 7. Template additional features styles (stuff.css)
+ * 8. Additional WP extensions styles (wp.extensions.css)
+ * 9. (optional) Additional 3rd party extensions styles (extensions.css)
+ * 10. Small desktop code (desktop.small.css)
+ * 11. Tablet code (tablet.css)
+ * 12. Small Tablet code (tablet.small.css)
+ * 13. Mobile code (mobile.css)
+ * 14. IE code fixes (ie*.css)
+ * 15. Template colours and styles (style*.css)
+ * 16. (optional) Override for all CSS files (override.css)
+ **/

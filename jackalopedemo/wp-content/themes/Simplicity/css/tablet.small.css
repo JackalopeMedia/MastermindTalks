@@ -1,0 +1,111 @@
+/**
+ *
+ * -------------------------------------------
+ * Small Tablet CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 12. Small Tablet code
+ *
+ *
+------------------------------------ */
+ 
+/* 12.1. Base elements
+==================================== */ 
+
+.gk-page {
+	padding-left: 20px!important;
+	padding-right: 20px!important;
+}
+#gk-mainbody article > header h1, 
+#gk-mainbody article > header h2 {
+	font-size: 32px;
+	line-height: 32px;
+}
+.imageBg #gk-header-mod {
+	padding: 70px 0 50px 0;
+}
+.imageBg #gk-header-mod input[type="email"] {
+	width: 290px;
+}
+.gk-icons > div {
+	clear: both;
+	float: none;
+	margin: 0 auto;
+	max-width: 300px;
+	width: 100%;
+}
+.imageBg #gk-header-mod h1 {
+	font-size: 28px;
+}
+.imageBg #gk-header-mod h2 {
+	font-size: 17px;
+	line-height: 16px;
+}
+.imageBg #gk-header-mod .gk-form {
+	width: 300px;
+}
+.imageBg #gk-header-mod input[type="email"] {
+	margin-bottom: 10px;
+	width: 300px;
+}
+.imageBg #gk-header-mod input[type="submit"] {
+	margin: 0; 
+	width: 300px;
+}
+.gk-news-gallery .gk-images-wrapper > a { 
+	padding: 0 3px;
+}
+.gk-news-gallery .gk-images-wrapper > a img {
+	padding: 3px;
+}
+.gk-testimonials > div {
+	clear: both;
+	float: none;
+	margin: 0 auto;
+	max-width: 300px;
+	width: 100%;
+}
+.gk-horizontal-slide-left-column {
+	width: 63%;
+}
+.gk-horizontal-slide-right-column {
+	width: 35%;
+}
+.gk-button-area {
+	text-align: center;
+}
+.gk-button-area h3 {
+	text-align: center;
+	width: 100%;
+}
+.gk-button-area a {
+	display: inline-block;
+	float: none;
+	margin: 10px 0 0 0;
+}
+.gk-price-table dl {
+	padding: 20px 10px;
+}
+.gk-price-table dt {
+	font-size: 22px;
+}
+.gk-price-table dl.gk-premium dd.gk-price {
+	font-size: 40px;
+}
+.gk-price-table dl dd.gk-price {
+	font-size: 32px;
+}
+.gk-price-table dl.gk-premium dd {
+	padding: 5px 0;
+}
+.gk-price-table dd a {
+	margin: 10px 0;
+	padding: 0 20px;
+}
+.gk-price-table dl.gk-premium {
+	margin-top: -2px;
+}

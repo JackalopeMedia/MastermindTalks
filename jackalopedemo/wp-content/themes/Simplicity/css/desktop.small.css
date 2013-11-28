@@ -1,0 +1,49 @@
+/**
+ *
+ * -------------------------------------------
+ * Small Desktop CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 10. Small Desktop code
+ *
+ *
+------------------------------------ */
+ 
+/* 10.1. Base elements
+==================================== */ 
+
+.gk-page {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+}
+
+.imageBg #gk-header-mod {
+	padding: 120px 0 90px 0;
+}
+
+#gk-footer {
+	text-align: center;
+}
+
+#footer-menu,
+.gk-copyrights {
+	clear: both;
+	display: block;
+	float: none!important;
+	margin: 10px auto;
+	overflow: hidden;
+}
+
+#footer-menu {
+	clear: none;
+	display: inline-block;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}

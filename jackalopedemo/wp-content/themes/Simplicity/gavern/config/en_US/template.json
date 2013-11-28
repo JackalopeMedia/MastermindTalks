@@ -1,0 +1,18 @@
+{
+	"template": {
+		"name": "Simplicity",
+		"update_name": "gk_simplicity_wp",
+		"date": "04/11/2013",
+		"version": "1.4",
+		"description": "Startup GavickPro Wordpress theme based on the GavernWP framework"
+	},
+	"developer_config": {
+		"visibility": {
+			"template_options": true,
+			"importexport": true,
+			"updates": true,
+			"documentation": true,
+			"gavickpro_website": true
+		}
+	}
+}

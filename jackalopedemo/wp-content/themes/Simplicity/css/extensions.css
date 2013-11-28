@@ -1,0 +1,466 @@
+/**
+ *
+ * -------------------------------------------
+ * Template 3rd party extensions CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 9. Template additional 3rd party extensions style
+ *
+ *
+------------------------------------ */
+
+/* 9.1. GK Comments
+==================================== */
+
+.widget_gk_comments li {
+	border: none!important;
+	overflow: hidden;
+	margin-bottom: 12px
+}
+
+.widget_gk_comments li > p {
+	line-height: 1.5;	
+}
+
+.widget_gk_comments li > p a { 
+    background: #F8F8F8;
+	color: #888;
+    display: block;   
+	padding: 10px 15px;	
+}
+
+.widget_gk_comments li > img,
+.widget_gk_comments li > strong,
+.widget_gk_comments li > small {
+	float: left;
+}
+
+.widget_gk_comments li > img {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+.widget_gk_comments li > strong,
+.widget_gk_comments li > small {
+	line-height: 18px;
+	width: 65%;
+}
+
+/* 9.2. GK NSP
+==================================== */
+
+.gk-nsp {
+	position: relative;
+}
+
+.gk-nsp-arts,
+.gk-nsp-links {
+	overflow: hidden;
+}
+
+.gk-nsp-arts-nav,
+.gk-nsp-links-nav {
+	overflow: hidden;
+	clear: both;
+}
+.gk-nsp-links-nav {
+	float: right;
+}
+.gk-nsp-arts-nav {
+	position: absolute;
+	right: 0;
+	padding: 0 3px;
+	top: -49px;
+}
+.gk-nsp-arts-nav ul,
+.gk-nsp-links-nav ul {
+	list-style-type: none !important;
+	margin: 8px 0 0 !important;
+	padding: 0 !important;
+	float: left;
+}
+.gk-nsp-arts-nav ul li,
+.gk-nsp-links-nav ul li {
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+	        border-radius: 50%;
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: -2px 4px 0 0 !important;
+	background: #ddd;
+	border: none!important;
+	padding: 0!important;
+	text-indent: -999em;
+	cursor: pointer;
+}
+.gk-nsp-arts-nav li:hover,
+.gk-nsp-arts-nav li.active,
+.gk-nsp-links-nav li:hover,
+.gk-nsp-links-nav li.active {
+	background: #aaa;
+}
+.gk-nsp-next,
+.gk-nsp-prev {
+	background: url('../images/nsp_interface.png') no-repeat -11px 0;
+	cursor: pointer;
+	float: left;
+	height: 21px;
+	margin: 0 4px;
+	text-indent: -999em;
+	width: 11px;
+}
+.gk-nsp-prev {
+	background-position: 0 0;
+}
+.gk-nsp-next:hover,
+.gk-nsp-prev:hover {
+	background-position: -11px -21px;
+}
+.gk-nsp-prev:hover {
+	background-position: 0 -21px;
+}
+.gk-nsp-art-page {
+	float: left;
+}
+.gk-nsp-art {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	        box-sizing: border-box;
+	float: left;
+}
+.gk-nsp-art.gk-nsp-cols-1 { 
+	border-top: 1px solid #e5e5e5;
+}
+.gk-nsp-art:first-child {
+	border-top: none;
+}
+.gk-nsp-art div {
+	overflow: hidden;
+}
+.gk-nsp-header {
+	font-size: 24px;
+	margin: 0;
+	padding: 10px 0 15px 0;
+}
+.gk-nsp-art .gk-nsp-image {
+	border: none;
+}
+body[data-tablet="false"] .gk-nsp-art .gk-nsp-image {
+	-webkit-transform: scale(1.0);
+	   -moz-transform: scale(1.0);
+	    -ms-transform: scale(1.0);
+	     -o-transform: scale(1.0);
+	        transform: scale(1.0);
+	-webkit-transition: -webkit-transform 0.15s linear;
+	   -moz-transition:    -moz-transform 0.15s linear;
+	     -o-transition:      -o-transform 0.15s linear;
+	        transition:         transform 0.15s linear;
+}
+body[data-tablet="false"] .gk-nsp-art .gk-nsp-image:hover {
+	-webkit-transform: scale(0.96);
+	   -moz-transform: scale(0.96);
+	    -ms-transform: scale(0.96);
+	     -o-transform: scale(0.96);
+	        transform: scale(0.96);
+}
+.gk-nsp-art .gk-nsp-image-wrap {
+	overflow: hidden;
+}
+.gk-nsp-art .gk-nsp-text {
+	display: block!important;
+	margin: 0;
+	padding: 0!important;
+}
+.gk-nsp-art .gk-nsp-text + .readon {
+	margin-top: 16px;	
+}
+.gk-nsp-art .gk-nsp-text + .gk-nsp-info {
+	margin-top: 6px;
+}
+.gk-nsp-art .gk-nsp-info {
+	color: #aaa;
+	display: block!important;
+	font-size: 12px;
+	padding: 5px 0;
+}
+.gk-nsp-art .gk-nsp-info a,
+.gk-nsp-art .gk-nsp-info span {
+	color: #999;
+	padding-left: 8px;
+}
+.gk-nsp-art .gk-nsp-info a:first-child,
+.gk-nsp-art .gk-nsp-info span:first-child {
+	padding-left: 0!important;
+}
+.gk-nsp-art .gk-nsp-info a:active,
+.gk-nsp-art .gk-nsp-info a:focus,
+.gk-nsp-art .gk-nsp-info a:hover {
+	color: #333;
+}
+.readon.left,
+.readon.right,
+.readon.center {
+	clear: both;
+}
+.readon.left {
+	float: left;
+}
+.readon.right {
+	float: right;
+}
+.readon.center {
+	display: inline;
+	float: none;
+}
+.gk-nsp-links ul {
+	float: left;
+	list-style-type: none !important;
+	padding: 0 !important;
+}
+.gk-nsp-links ul li {
+	border-top: 1px solid #e5e5e5;
+	margin:0 !important;
+	padding: 16px 0;
+}
+.gk-nsp-image-wrap {
+	float: left;
+}
+/* responsive layout */
+.gk-responsive {
+	line-height: 1;
+}
+img.gk-responsive {
+	width: 100% !important;
+	height: auto;
+}
+.gk-responsive {
+	display: block;
+	position: relative;
+}
+.gk-nsp-image {
+	max-width: 100%;
+}
+.gk-nsp-arts,
+.gk-nsp-links {
+	clear: both;
+	width: 100%;
+}
+.gk-nsp-links {
+	margin-top: 30px;
+}
+.gk-nsp-arts::after,
+.gk-nsp-links::after {
+	clear: both;
+	content: "";
+	display: table;
+}
+.gk-nsp-arts-page,
+.gk-nsp-art {
+	float: left;
+}
+.gk-nsp-pages-1 { width: 100%; }
+.gk-nsp-pages-2 { width: 200%; }
+.gk-nsp-pages-3 { width: 300%; }
+.gk-nsp-pages-4 { width: 400%; }
+.gk-nsp-pages-5 { width: 500%; }
+.gk-nsp-pages-6 { width: 600%; }
+.gk-nsp-pages-7 { width: 700%; }
+.gk-nsp-pages-8 { width: 800%; }
+.gk-nsp-pages-9 { width: 900%; }
+.gk-nsp-pages-10 { width: 1000%; }
+.gk-nsp-cols-1 { width: 100%; }
+.gk-nsp-cols-2 { width: 50%; }
+.gk-nsp-cols-3 { width: 33.3%; }
+.gk-nsp-cols-4 { width: 25%; }
+.gk-nsp-cols-5 { width: 20%; }
+.gk-nsp-cols-6 { width: 16.66%; }
+.gk-nsp-cols-7 { width: 14.285%; }
+.gk-nsp-cols-8 { width: 12.5%; }
+.gk-nsp-cols-9 { width: 11.1%; }
+.gk-nsp-cols-10 { width: 10%; }
+
+.gk-nsp-art.gk-nsp-cols-1,
+.gk-nsp-art.gk-nsp-cols-2:nth-child(2n+1),
+.gk-nsp-art.gk-nsp-cols-3:nth-child(3n+1),
+.gk-nsp-art.gk-nsp-cols-4:nth-child(4n+1),
+.gk-nsp-art.gk-nsp-cols-5:nth-child(5n+1),
+.gk-nsp-art.gk-nsp-cols-6:nth-child(6n+1),
+.gk-nsp-art.gk-nsp-cols-7:nth-child(7n+1),
+.gk-nsp-art.gk-nsp-cols-8:nth-child(8n+1),
+.gk-nsp-art.gk-nsp-cols-9:nth-child(9n+1),
+.gk-nsp-art.gk-nsp-cols-10:nth-child(10n+1) {
+	clear: both;
+}
+
+.gk-nsp-arts-scroll,
+.gk-nsp-links-scroll {
+	overflow: hidden;
+}
+
+/* Style dark */
+.dark .gk-nsp-links-scroll ul li {
+	border-top-color: #555;
+}
+
+/* 9.4. GK News Gallery
+==================================== */
+
+/* 
+ * Portal Mode - News Gallery 
+ */
+
+.gk-news-gallery {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 50px 72px;
+	position: relative;
+}
+
+.gk-news-gallery .gk-images-wrapper {
+	width: 100%;
+}
+
+.gk-news-gallery .gk-images-wrapper > a {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: none;
+	float: left;
+	padding: 0 12px;
+	position: relative;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: -webkit-transform .3s ease-out;
+	-moz-transition: -moz-transform .3s ease-out;
+	-ms-transition: -ms-transform .3s ease-out;
+	-o-transition: -o-transform .3s ease-out;
+	transition: transform .3s ease-out;
+}
+
+.gk-news-gallery .gk-images-wrapper > a.active {
+	display: block;
+}
+
+.gk-news-gallery .gk-images-wrapper > a.show {
+	-webkit-transform: scale(1.0);
+	-moz-transform: scale(1.0);
+	-ms-transform: scale(1.0);
+	-o-transform: scale(1.0);
+	transform: scale(1.0);
+}
+
+.gk-news-gallery .gk-images-wrapper.gk-images-cols1 > a { width: 100%; }
+.gk-news-gallery .gk-images-wrapper.gk-images-cols2 > a { width: 50%; }
+.gk-news-gallery .gk-images-wrapper.gk-images-cols3 > a { width: 33.3%; }
+.gk-news-gallery .gk-images-wrapper.gk-images-cols4 > a { width: 25%; }
+.gk-news-gallery .gk-images-wrapper.gk-images-cols5 > a { width: 20%; }
+.gk-news-gallery .gk-images-wrapper.gk-images-cols6 > a { width: 16.66%; }
+.gk-news-gallery .gk-images-wrapper.gk-images-cols7 > a { width: 14.28%; }
+.gk-news-gallery .gk-images-wrapper.gk-images-cols8 > a { width: 12.5%; }
+.gk-news-gallery .gk-images-wrapper.gk-images-cols9 > a { width: 11.11%; }
+.gk-news-gallery .gk-images-wrapper.gk-images-cols10 > a { width: 10%; }
+
+.gk-news-gallery .gk-images-wrapper > a img {
+	border: 1px solid #eee;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	padding: 10px;
+}
+
+.gk-news-gallery .gk-prev-btn,
+.gk-news-gallery .gk-next-btn {
+	background: transparent url('../images/news_gallery_interface.png') no-repeat 0 0;
+	height: 41px;
+	margin-top: -21px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 50%;
+	width: 21px;
+}
+
+.gk-news-gallery .gk-prev-btn {
+	left: 0;
+}
+
+.gk-news-gallery .gk-next-btn {
+	background-position: -21px 0;
+	right: 0;
+}
+
+.gk-news-gallery .gk-prev-btn:active,
+.gk-news-gallery .gk-prev-btn:focus,
+.gk-news-gallery .gk-prev-btn:hover {
+	background-position: 0 -41px;
+}
+
+.gk-news-gallery .gk-next-btn:active,
+.gk-news-gallery .gk-next-btn:focus,
+.gk-news-gallery .gk-next-btn:hover {
+	background-position: -21px -41px;
+}
+
+.gk-news-gallery .gk-images-wrapper > a > .gk-img-overlay {
+	background: #fff;
+	border: 1px solid #eee;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	filter: alpha(opacity=0);
+	height: 100%;
+	left: 50%;
+	opacity:0; 
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	-webkit-transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+	-ms-transition: opacity .3s ease-out;
+	-o-transition: opacity .3s ease-out;
+	transition: opacity .3s ease-out;
+	width: 100%;
+	z-index: 1;
+}
+
+.gk-news-gallery .gk-images-wrapper > a > .gk-img-overlay > span {
+	background: #fec54c url('../images/news_gallery_overlay.png') no-repeat center center;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.gk-news-gallery .gk-images-wrapper > a > .gk-img-overlay.active {
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+/* 9.5. WPML
+==================================== */
+
+body #lang_sel_footer {
+	background-color: transparent;
+	border: none;
+	clear: both;
+	font: inherit;
+	margin: 0;
+	min-height: 15px;
+	padding: 7px;
+	text-align: center;
+}

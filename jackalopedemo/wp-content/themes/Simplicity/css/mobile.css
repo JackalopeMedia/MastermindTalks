@@ -1,0 +1,332 @@
+/**
+ *
+ * -------------------------------------------
+ * Mobile CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 13. Mobile code
+ *
+ *
+------------------------------------ */
+ 
+/* 13.1. Base elements
+==================================== */ 
+
+.imageBg #gk-head {
+	background-image: url('../images/header_mobile.jpg');
+}
+
+.gk-page {
+	padding-left: 15px!important;
+	padding-right: 15px!important;
+}
+
+.page-title {
+	font-size: 32px;
+}
+
+/* archive / page 404 */
+.page404 .widget,
+.archivepage .widget {
+	margin: 0!important;
+	width: 100%!important;
+}
+
+/* images fix */
+#gk-mainbody img {
+	height: auto!important;
+	max-width: 100%!important;
+}
+
+/* column rules */
+#gk-sidebar {
+	padding: 20px 0!important;
+}
+
+#gk-sidebar .box {
+	float: none!important;
+	width: 100%!important;
+}
+
+#gk-bottom1 .box,
+#gk-bottom2 .box,
+#gk-bottom3 .box,
+#gk-bottom4 .box,
+#gk-bottom5 .box,
+#gk-bottom6 .box  {
+	margin-bottom: 20px;	
+}
+
+#gk-sidebar .box {
+	float: none;
+	margin-top: 0!important;
+	margin-bottom: 12px!important;
+	width: 100%;
+}
+
+#gk-sidebar .box:nth-child(2n+1) {
+	clear: both!important;
+}
+
+#gk-sidebar .box:nth-child(odd) {
+	padding-right: 0px;	
+}
+
+#gk-sidebar .box:nth-child(even) {
+	padding-left: 0px;
+}
+
+.widget-area .col1,
+.widget-area .col2,
+.widget-area .col3,
+.widget-area .col4,
+.widget-area .col5,
+.widget-area .col6,
+.widget-area .box.last1,
+.widget-area .box.last2,
+.widget-area .box.last3,
+.widget-area .box.last4,
+.widget-area .box.last5 { 
+	float: none!important;
+	margin: 0 auto 20px auto!important; 
+	max-width: 320px; 
+	width: 100%; 
+}
+
+.widget-area .nth1,
+.widget-area .nth2,
+.widget-area .nth3,
+.widget-area .nth4,
+.widget-area .nth5,
+.widget-area .nth6 {
+	clear: both;
+}
+
+body #gk-page .box {
+	margin-bottom: 20px!important;
+}
+
+#footer-menu li {
+	float: none;
+}
+
+.gk-columns > div {
+	padding: 5px 0!important;
+	width: 100%!important;
+}
+
+/* 13.2. Header and demo elements
+==================================== */
+
+.gk-price-table dl {
+	margin: 20px auto!important;
+	width: 100%!important;
+}
+
+.gk-button-area h3 small {
+	line-height: 22px;
+	margin-top: 10px;
+}
+
+.gk-horizontal-slide-left-column {
+	width: 100%;
+}
+
+.gk-horizontal-slide-right-column {
+	display: none;
+}
+
+.box.layered {
+	padding-top: 100px;
+}
+
+.box.centered .box-title {
+	font-size: 30px!important;
+}
+
+.imageBg #gk-header-mod input[type="email"],
+.imageBg #gk-header-mod input[type="submit"],
+.imageBg #gk-header-mod .gk-form {
+	width: 250px;
+}
+
+.imageBg #gk-header-mod .gk-form {
+	margin: 25px 0;
+}
+
+.imageBg #gk-header-mod .gk-video-link {
+	font-size: 18px;
+}
+
+.imageBg #gk-header-mod h1 {
+	font-size: 24px;
+	line-height: 1.2;
+	letter-spacing: normal;
+}
+
+.imageBg #gk-header-mod h2 {
+	font-size: 15px;
+	line-height: 1.2;
+}
+
+.imageBg #gk-header-mod {
+	padding: 30px 10px 20px 10px!important;
+}
+
+.imageBg #gk-header {
+	background-image: url('../images/header_mobile.jpg');
+}
+
+/* 13.3. Posts
+==================================== */
+
+#gk-mainbody article > header h1 {
+	line-height: 32px;
+	padding: 18px 0 0px;
+}
+
+#gk-mainbody article > header h1, 
+#gk-mainbody article > header h2 {
+	font-size: 24px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+h2, 
+.pagetitle {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 16px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+section#comments,
+section#respond {
+	margin-left: 0!important;
+}
+
+#comments li article > aside {
+	float: left;
+	margin-bottom: 10px;
+	margin-left: 0;
+	margin-right: 10px;
+	position: static!important;
+}
+
+#comments article .author {
+	float: none;
+	margin-top: 5px;
+}
+
+.author-info > aside {
+	margin: 0 0 30px 0;
+	position: static;
+}
+
+.author-info > div {
+	clear: both;
+	padding: 0;
+}
+
+article {
+	padding-left: 0!important;
+}
+
+aside.meta {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 20px 0!important;
+	position: static!important;
+	width: 100%!important;
+}
+
+#comments article header > * {
+	clear: both;
+	display: block;
+	float: left;
+	margin: 5px 0!important;
+	width: 100%;
+}
+
+#comments li article > .content {
+	margin-left: 0!important;
+	padding-left: 0!important;
+}
+
+#comments > h2:first-child,
+#respond > h3 {
+	font-size: 30px;
+	padding: 30px 0 0;
+}
+
+#gk-mainbody article > header h1, 
+#gk-mainbody article > header h2 {
+	font-size: 24px!important;
+	line-height: 1.2;
+}
+
+.tag-page > article, 
+.search-page > article {
+	padding: 0!important;
+	width: 100%!important;
+}
+
+/* 13.4. Other elements
+==================================== */
+
+.gk-nsp .gk-nsp-art {
+	border-top: 1px solid #eee!important;
+	border-left: none!important;
+	padding-bottom: 20px!important;
+	padding-top: 20px!important;
+	width: 100%!important;
+}
+.gk-nsp .gk-nsp-art:first-child {
+	border-top: none!important;
+}
+
+.gk-nsp-arts,
+.gk-nsp-links-wrap {
+	clear: both;
+	float: left!important;
+	width: 100%!important;
+}
+
+/* 13.5. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: none!important;
+}
+
+.onlySmartphones {
+	display: block!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}

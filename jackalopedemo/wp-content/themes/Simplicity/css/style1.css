@@ -1,0 +1,413 @@
+/**
+ *
+ * -------------------------------------------
+ * Style1
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 15. Style I
+ *
+ *
+------------------------------------ */
+
+/* 15.1. Basic colors
+==================================== */
+
+a:hover,
+a:active,
+a:focus,
+#gk-mainbody a,
+#gk-mainbody header h1 a:active,
+#gk-mainbody header h1 a:focus,
+#gk-mainbody header h1 a:hover,
+#gk-mainbody header h2 a:active,
+#gk-mainbody header h2 a:focus,
+#gk-mainbody header h2 a:hover,
+#gk-sidebar .box a:hover {
+	color: #4c90fe;
+}
+
+.btn,
+button,
+.readon,
+.nav-btn a,
+a.gk-button,
+input[type="button"],
+input[type="submit"] {
+	background: #4c90fe;
+}
+
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled],
+.nav-btn a:active,
+.nav-btn a:focus,
+.nav-btn a:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+button.disabled,
+input[type="button"].disabled,
+input[type="submit"].disabled,
+a.gk-button:hover,
+a.gk-button:active,
+a.gk-button.active,
+a.gk-button.disabled,
+a.gk-button[disabled],
+.readon:hover,
+.readon:active,
+.readon:focus,
+.btn:focus,
+button:focus,
+a.gk-button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus {
+ 	background: #fec64d;
+}
+
+a.cssLogo,
+#gk-menu-wrap a.cssLogo {
+	background-image: url('../images/style1/logo_white_bg.png');
+}
+
+.imageBg #gk-head a.cssLogo {
+	background-image: url('../images/style1/logo_normal.png');
+}
+
+#gk-footer a:active,
+#gk-footer a:focus,
+#gk-footer a:hover {
+	color: #4c90fe;
+}
+
+.box .box-title em {
+	color: #fec54c;
+}
+
+#gk-contact span.error {
+	color: #dd514c;
+}
+
+.contactpage .gk-contact-error,
+.contactpage .gk-contact-thanks {
+	background: #4c90fe;
+}
+
+.contactpage .gk-contact-error {
+	background: #fe654c;
+}
+
+.imageBg #gk-header-mod input[type="submit"] {
+	background: #4c90fe;
+}
+
+.imageBg #gk-header-mod input[type="submit"]:active,
+.imageBg #gk-header-mod input[type="submit"]:focus,
+.imageBg #gk-header-mod input[type="submit"]:hover {
+	background: #fec54c;
+}
+
+.imageBg #gk-header-mod .gk-video-link:hover {
+	color: #fec54c;
+}
+
+.gk-button-area a {
+	background: #fec54d;
+}
+
+.gk-button-area a:active,
+.gk-button-area a:focus,
+.gk-button-area a:hover {
+	background: #4c90fe;
+}
+
+.gk-horizontal-slide-left-column a.btn {
+	background: #4c90fe;
+}
+
+.gk-horizontal-slide-left-column a.btn:active,
+.gk-horizontal-slide-left-column a.btn:focus,
+.gk-horizontal-slide-left-column a.btn:hover {
+	background: #fec54c;
+}
+
+.gk-price-table dd a {
+	background: #4c90fe;	
+}
+
+.gk-price-table dd a:active,
+.gk-price-table dd a:focus,
+.gk-price-table dd a:hover,
+.gk-price-table .gk-premium dd a {
+	background: #fec54d;
+}
+
+.gk-price-table dd.gk-price {
+	color: #fec54d;
+}
+
+.gk-price-table dl.gk-premium {
+	background: #4c90fe;
+}
+
+.gk-price-table dl.gk-premium dt {
+	border-bottom: 1px solid #80b1ff; 
+}
+
+.gk-disclaimer strong {
+	color: #fec54c;
+}
+
+.gk-crop {
+	background-image: url('../images/style1/gkcrop.png');
+}
+.gk-crop:hover {
+	background-color: #fe654c;
+}
+.gk-rocket {
+	background-image: url('../images/style1/gkrocket.png');
+}
+.gk-rocket:hover {
+	background-color: #4c90fe;
+}
+.gk-mobile {
+	background-image: url('../images/style1/gkmobile.png');
+}
+.gk-mobile:hover {
+	background-color: #fec54c;
+}
+
+#main-menu > li > a:hover,
+#main-menu > li.current-menu-item,
+#main-menu > li.current_page_item,
+#main-menu > li:hover,
+#main-menu > li.active > a,
+#main-menu > li.current-menu-item > a,
+#main-menu > li.current_page_item > a,
+#main-menu > li.current-menu-ancestor > a, 
+#main-menu > li.current-menu-parent > a  {
+	color: #fec54c;
+}
+
+#main-menu .sub-menu li:hover {
+	background: #fec54c;
+}
+
+#main-menu .sub-menu li:hover > a {
+	border-top-color: #fec54c;
+}
+
+#gk-menu-wrap #main-menu a:hover,
+#gk-menu-wrap #main-menu a:active,
+#gk-menu-wrap #main-menu a:focus,
+#gk-menu-wrap #main-menu li.active > a,
+#gk-menu-wrap #main-menu > ul > li.active > a {
+	color: #fec54c;
+}
+
+article header h1 sup,
+article.sticky header h1 sup,
+article header h2 sup,
+article.sticky header h2 sup {
+	background: #fe654c;
+}
+
+.widget_archive li a:active,
+.widget_archive li a:focus,
+.widget_archive li a:hover {
+	color: #4c90fe;
+}
+
+.box.dark a:active,
+.box.dark a:focus,
+.box.dark a:hover {
+	color: #fec54c!important;
+}
+
+.box.menu li {
+	background-image: url('../images/style1/typography/bullet3.png');
+}
+
+.box.menu li a:active,
+.box.menu li a:focus,
+.box.menu li a:hover {
+	color: #4c90fe;
+}
+
+.gk-news-gallery .gk-images-wrapper > a > .gk-img-overlay > span {
+	background-color: #fec54c;
+	background-image: url('../images/news_gallery_overlay.png');
+}
+
+#gallery ol li:hover,
+#gallery ol li.active {
+	background: #4c90fe;
+}
+
+.gk-note:before,
+.gk-members > strong:first-child {
+	background: #fe654c;
+}
+
+.gk-members > strong:first-child {
+	background: #fec54c;
+}
+
+.gk-tooltip[data-style="style2"] dfn {
+	background: #4c90fe;
+}
+
+.gk-tooltip[data-style="style3"] dfn {
+	background: #fec64d;
+}
+
+.gk-tooltip[data-style="style4"] dfn {
+	background: #fe654c;
+}
+
+.gk-notice {
+	background-color: #4c90fe;
+	background-image: url('../images/style1/typography/tips.png');
+}
+
+.gk-info {
+	background-color: #FEC54C;
+	background-image: url('../images/style1/typography/info.png');
+}
+
+.gk-warning,
+.gk-error {
+	background-color: #fe654c;
+	background-image: url('../images/style1/typography/warning.png');
+}
+
+.gk-badge[data-style="style2"],
+.gk-label[data-style="style2"] {
+	background: #fe654c;
+}
+
+.gk-badge[data-style="style3"],
+.gk-label[data-style="style3"] {
+	background: #4c90fe;
+}
+
+.gk-badge[data-style="style4"],
+.gk-label[data-style="style4"] {
+	background: #fec54c;
+}
+
+pre.gk-code[data-style="style2"] {
+	border-left: 4px solid #fe654c;
+}
+
+pre.gk-code[data-style="style3"] {
+	border-top: 4px solid #fec54c;
+}
+
+.gk-numblock[data-style="style1"] span {
+	background: #fec54c;
+}
+
+.gk-numblock[data-style="style2"] span {
+	background: #fe654c;
+}
+
+.gk-numblock[data-style="style3"] span {
+	background: #4c90fe;
+}
+
+blockquote.gk-quote {
+	background: url('../images/style1/typography/open1.png') no-repeat left bottom;
+}
+
+blockquote.gk-quote p {
+	background: url('../images/style1/typography/close1.png') no-repeat top right;
+}
+
+blockquote.gk-quote[data-style="style2"] {
+	background: url('../images/style1/typography/open1.png') no-repeat left top;
+}
+
+blockquote.gk-quote[data-style="style3"] {
+	background: url('../images/style1/typography/open2.png') no-repeat left bottom;
+}
+
+blockquote.gk-quote[data-style="style3"] p {
+	background: url('../images/style1/typography/close2.png') no-repeat top right;
+}
+
+blockquote.gk-quote[data-style="style4"] {
+	background: url('../images/style1/typography/open2.png') no-repeat left top;
+}
+
+blockquote.gk-quote[data-style="style4"] p {
+	background: url('../images/style1/typography/close2.png') no-repeat top right;
+}
+
+article .content ul li,
+article .intro ul li,
+article .summary ul li {
+	background-image: url('../images/style1/typography/bullet1.png')!important;
+}
+
+article ul[data-style="style2"] li {
+	background-image: url('../images/style1/typography/bullet2.png')!important;
+}
+
+article ul[data-style="style3"] li {
+	background-image: url('../images/style1/typography/bullet3.png')!important;
+}
+
+article ul[data-style="style4"] li {
+	background-image: url('../images/style1/typography/bullet4.png')!important;
+}
+
+.gk-button[data-style="style2"] {
+	background: #fec64d;
+}
+
+.gk-button[data-style="style2"]:active,
+.gk-button[data-style="style2"]:focus,
+.gk-button[data-style="style2"]:hover {
+	background-color: #4c90fe;
+}
+
+.gk-button[data-style="style3"] {
+	background: #99c24b;
+}
+
+.gk-button[data-style="style3"]:active,
+.gk-button[data-style="style3"]:focus,
+.gk-button[data-style="style3"]:hover {
+	background-color: #fec64d;
+}
+
+.gk-button[data-style="style4"] {
+	background: #fe654c;
+}
+
+.gk-button[data-style="style4"]:active,
+.gk-button[data-style="style4"]:focus,
+.gk-button[data-style="style4"]:hover {
+	background-color: #fec64d;
+}
+
+.gk-button[data-style="style5"]:active,
+.gk-button[data-style="style5"]:focus,
+.gk-button[data-style="style5"]:hover {
+	background-color: #fec64d;
+}
+
+.gk-button[data-style="style6"]:active,
+.gk-button[data-style="style6"]:focus,
+.gk-button[data-style="style6"]:hover {
+	background-color: #fec64d;
+}

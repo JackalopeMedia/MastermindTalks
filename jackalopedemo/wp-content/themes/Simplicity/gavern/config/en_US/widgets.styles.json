@@ -1,0 +1,54 @@
+[
+	{
+		"name": "Image Background",
+		"css_class": "imageBg",
+		"exclude": "widget_gk_comments,widget_gk_nsp"
+	},
+	{
+		"name": "Page Title",
+		"css_class": "pagetitle",
+		"for_only": "text"
+	},
+	{
+		"name": "Light",
+		"css_class": "light",
+		"exclude": "widget_gk_comments"
+	},
+	{
+		"name": "Dark",
+		"css_class": "dark",
+		"exclude": "widget_gk_comments,widget_gk_nsp"
+	},
+	{
+		"name": "Menu",
+		"css_class": "menu"
+	},
+	{
+		"name": "Advertisement",
+		"css_class": "advertisement"
+	},
+	{
+		"name": "Centered",
+		"css_class": "centered",
+		"for_only": "text,widget_gk_news_gallery"
+	},
+	{
+		"name": "Layers",
+		"css_class": "layered",
+		"for_only": "text"
+	},
+	{
+		"name": "Testimonials",
+		"css_class": "testimonials",
+		"for_only": "text"
+	},
+	{
+		"name": "No margin",
+		"css_class": "nomargin"
+	},
+	{
+		"name": "Unified style",
+		"css_class": "tags",
+		"for_only": "tag_cloud"
+	}
+]
