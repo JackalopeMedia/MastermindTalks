@@ -411,3 +411,8 @@ article ul[data-style="style4"] li {
 .gk-button[data-style="style6"]:hover {
 	background-color: #fec64d;
 }
+
+.headline-size {
+	font-size: 80px;
+	padding-bottom: 40px;
+}
