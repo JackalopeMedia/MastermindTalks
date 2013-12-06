@@ -411,3 +411,14 @@ article ul[data-style="style4"] li {
 .gk-button[data-style="style6"]:hover {
 	background-color: #fec64d;
 }
+
+.inline {
+	li {
+		display: inline-block;
+		margin-right: 24px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

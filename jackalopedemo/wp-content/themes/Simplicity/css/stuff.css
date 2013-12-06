@@ -971,6 +971,14 @@ body #TB_title {
 	padding: 0 10px;
 	width: 33.3%;
 }
+.logo-icons > div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	padding: 0 10px;
+	width: 20.0%;
+}
 .gk-icons > div h2 {
 	font-size: 28px;
 	font-weight: 300;
@@ -984,8 +992,10 @@ body #TB_title {
 	text-align: center;
 }
 .gk-icon-area {
-	background: transparent url('../images/icon_borders.png') no-repeat 0 0;
-	height: 270px;
+	vertical-align: middle;
+	padding-top: 50px;
+	margin-top: -24px;  
+	height: 0px;
 	margin: 0 auto 40px auto;
 	position: relative;
 	width: 270px;
@@ -1055,4 +1065,19 @@ article section table tbody tr:nth-child(2n) {
 
 article section table td span.gk-table-label {
 	display: none;
+}
+
+.inline {
+	li {
+		display: inline-block;
+		margin-right: 24px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.padding-top {
+	padding-top: 24px;
 }

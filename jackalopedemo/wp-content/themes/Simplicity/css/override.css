@@ -15,3 +15,14 @@
 
 /* 16.1. Overrided elements
 ==================================== */
+
+.inline {
+	li {
+		display: inline-block;
+		margin-right: 24px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
